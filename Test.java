@@ -1,8 +1,9 @@
 public class Test {
   public static void main(String[] arg) {
-    int a = 3;
-    int b = 5;
-    int c = a * b;
-    System.out.println("縦幅" + a + "横幅" + b + "の長方形の面積は、" + c);
+    int x = 5;
+    int y = 10;
+    int z = x + y;
+    String ans = "x+yは" + z;
+    System.out.println(ans);
   }
 }
