@@ -1,6 +1,8 @@
 public class Main {
   public static void main(String[] args) {
-    String msg = "私の年齢は" + 23;
-    System.out.println(msg);
+    String name = "なかむら";
+    System.out.print("私の名前は");
+    System.out.print(name);
+    System.out.print("です。");
   }
 }
