@@ -5,7 +5,7 @@ public class Main {
       newArray[i] = i;
     }
     return newArray;
-  }
+    }
   public static void main(String[] args) {
     int[] array = makeArray(3);
     for (int i : array) {
