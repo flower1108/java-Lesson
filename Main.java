@@ -1,15 +1,13 @@
 public class Main {
-  public static int[] makeArray(int size) {
-    int[] newArray = new int[size];
-    for (int i = 0; i < newArray.length; i++) {
-      newArray[i] = i;
-    }
-    return newArray;
-    }
   public static void main(String[] args) {
-    int[] array = makeArray(3);
-    for (int i : array) {
-      System.out.println(i);
-    }
+    String title = "お誘い";
+    String address = "uso800@xxxx.com";
+    String text= "今度、飲みに行きませんか";
+    email(title, address, text);
+  }
+  public static void email(String title, String address, String text) {
+    System.out.println(address + " に、以下のメールを送信しました");
+    System.out.println("件名：" + title);
+    System.out.println("本文：" + text);
   }
 }
