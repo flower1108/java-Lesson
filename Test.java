@@ -1,8 +1,8 @@
 public class Test {
   public static void main(String[] args) {
-    double triangleArea = calcTriangleArea(10.0, 5.0);
+    double triangleArea = calcTriangleArea(30.0, 25.0);
     System.out.println("三角形の面積:" + triangleArea + "平方cm");
-    double circleArea = calcCircleArea(5.0);
+    double circleArea = calcCircleArea(58.0);
     System.out.println("円の面積:" + circleArea + "平方cm");
   }
   public static double calcTriangleArea(double bottom, double height) {
